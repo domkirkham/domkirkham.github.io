@@ -102,6 +102,20 @@ img {
   margin-bottom: 0px;
 }
 
+.vtopleft {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left
+    float: none;
+}
+
+.vtopright {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right
+    float: none;
+}
+
 .mb-1 {
   margin-bottom: 0px;
 }
@@ -135,7 +149,6 @@ img {
 }
 
 .mode {
-  position: absolute;
   display: block;
   cursor: pointer;
   -webkit-touch-callout: none; /* iOS Safari */
@@ -210,7 +223,7 @@ blockquote footer cite:before {
   background: rgb(128 128 128 / 20%);
 }
 
-::-webkit-scrollbar-thumb:active { 
+::-webkit-scrollbar-thumb:active {
   background-color: rgb(128 128 128 / 100%);
 }
 
