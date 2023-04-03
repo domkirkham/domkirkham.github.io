@@ -116,6 +116,13 @@ img {
     float: none;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: center;
+    text-align: center
+    float: none;
+}
+
 .mb-1 {
   margin-bottom: 0px;
 }
@@ -162,6 +169,7 @@ img {
 
 .text-center {
   text-align: center;
+  vertical-align: center;
 }
 
 .text-right {
