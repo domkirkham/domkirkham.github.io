@@ -27,7 +27,7 @@
 .container {
   position: relative;
   width: 100%;
-  max-width: 640px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
@@ -199,9 +199,9 @@ body {
   font-size: 1.6em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
-  font-weight: 400;
-  font-family: "Inter", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
+  font-weight: 500;
+  font-family: "DM Sans", sans-serif;
+  /* font-family: "Inter", "HelveticaNeue", "Helvetica Neue", Helvetica, sans-serif; */
 }
 
 /* Typography
