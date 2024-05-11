@@ -209,7 +209,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  font-family: 'DM Serif Display', serif;
+  font-family: 'DM Mono', sans-serif;
   font-weight: 400;
 }
 
@@ -280,6 +280,7 @@ p {
 a:not(.icon) {
   color: inherit;
   background-size: 100% 200%;
+  font-family: "DM Mono";
   transition:
     background-position .2s ease-in-out
 }
@@ -287,6 +288,7 @@ a:not(.icon) {
 a:hover:not(.icon),
 a:focus:not(.icon) {
   background-position: 0 100%;
+  font-family: "DM Mono";
   color: #fff;
 }
 
